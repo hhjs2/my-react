@@ -1,0 +1,79 @@
+body{
+    background-color:papayawhip;
+    }
+/*전체*/
+.big{
+    padding: 10vh 15vw;
+}
+@media (max-width: 650px) {
+    .big{
+        padding: 1vh 1vw;
+    }   
+}
+
+.title{
+    font-family: "wild";
+}
+/*내용*/
+.content{ 
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px 2px;
+    font-family: "wild";
+
+} 
+/*댓글*/
+.reply{
+    background-color: #f68f07;
+    border-radius: 10px;
+    padding: 8px 3px;
+    font-family: "wild";
+    height: 21px;
+}
+
+/* 댓글 창*/
+.input{
+    border: 2px solid #f68f07 ;
+    background: white;
+    border-radius: 5px;
+    width: 250px;
+    height: 30px;
+    font-family: "wild";
+   
+}
+/*추첨하기 버튼*/
+.buttonCh{
+    border: 1px solid #0e4f1f; /*테두리*/
+    background: #0e4f1f;
+    color: white;
+    border-radius: 5px; /*곡선*/
+    font-size: 15px;
+    padding: 5px;
+    float: right; /*우측*/
+    font-family: "wild";
+}
+/* 확인 버튼 */
+.buttonOk{
+    border: 1px solid #0e4f1f; /*테두리*/
+    background: #0e4f1f;
+    color: white;
+    border-radius: 5px; /*곡선*/
+    font-size: 15px;
+    padding: 5px;
+    font-family: "wild";
+}
+
+.replyButton{
+    cursor: pointer;
+    background-image: url("./img/5555.png");
+    background-size: 100%;
+    border: none;
+    width: 25px;
+    height: 25px;
+    float: right;
+}
+
+@font-face {
+    font-family: "wild" ;
+    src: url("./fonts/wild.ttf");
+ }
